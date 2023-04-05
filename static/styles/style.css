@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 , h4, h5 , h6{
+    font-family: 'Roboto Slab', serif !important;
+}
+h1{font-weight: 900;}
+h2{font-weight: 700;}
+h3{font-weight: 600;}
+
+p{font-family: 'Roboto Slab', serif !important;
+color: #F7F7F7 ;
+font-weight: 400 !important;
+}
+
+/* NAVBAR */
+#navbar{
+    font-family: 'Source Serif Pro', serif !important;
+}
+.navbar-brand img{
+    margin: 0;
+    padding: 0;
+    width: 6rem;
+}
+.bg-dark{
+    background-color: #753188 !important;
+}
+.form-control{
+    background-color: #fff !important;
+    color: #2C272E !important;
+}
+.navbar-collapse{
+        position: absolute;
+        right: 3%;
+       
+}
+.nav-item{
+    margin-left: 1rem !important;
+}
+.btn-primary{
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #241663;
+    --bs-btn-border-color: #2a1d68;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #210d81;
+    --bs-btn-hover-border-color: #2a1d68;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #2a1d68;
+    --bs-btn-active-border-color: #2a1d68;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+.search{
+    margin-right: 10rem;
+}
+.dropdown-menu{
+    --bs-dropdown-min-width:  none !important;
+}
+
+/* MAIN CONTENT */
+#main{
+    margin: 0;
+    background-color: #53D397;
+    padding: 8% 4%;
+    text-align: center;
+    
+}
+
+.imgbg{
+    width: 30rem;
+}
+.pmain{
+    
+    font-size: 1.5rem;
+  
+}
+
+/* RECIPES */
+
+#recipes{
+    padding: 7% 3%;
+    text-align: center;
+    background-color: #F6F7C1;
+    
+}
+.recipe-image img{
+    /* width: 8rem; */
+    height: 10rem;
+    border-radius: 1rem;
+}
+.recipe-link:hover{
+    transform: scale(1.1);
+}
+.precipes{
+    font-size: 1rem;
+    color: #2C272E;
+}
+.recipes-card{
+    padding: 2% 4%;
+}
+
+/* REVIEWS */
+#reviews{
+    margin: 0;
+    background-color: #53D397;
+   
+}
+.carousel{
+    padding: 12% 6%;
+}
+
+.imgc{
+    margin: auto;
+     width: 10rem;
+   
+}
+/* FOOTER */
+
+#footer{
+    margin: 0;
+    padding: 2% 4%;
+    background-color: #6C5070;
+}
+.copyright{
+    text-align: center;
+}
+#footer a{
+    color: #2C272E;
+}
+.refinfo:hover{
+    transform: scale(1.1);
+}
